@@ -18,10 +18,9 @@ public class BinarySearchTree {
         bTree.add(63);
         bTree.add(67);
 
-
-        System.out.println("Size of BST: "+bTree.size());
         System.out.println("#### Tree ####");
         System.out.println(bTree.inOrder() + " ");
-
+        System.out.println("Size of BST: " + bTree.size());
+        System.out.println("Number present: " + bTree.contains(63));
     }
 }
